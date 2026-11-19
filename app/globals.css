@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f2f0ea;
+    --foreground: #191918;
   }
 }
 
@@ -23,4 +23,138 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Shared ProofQuest editorial theme */
+body,
+.bg-\[\#080B10\] {
+  background: #f2f0ea !important;
+  color: #191918;
+}
+
+.bg-\[\#0B0F16\] {
+  background: #eae7de !important;
+}
+
+.bg-\[\#0D121B\] {
+  background: #fbfaf6 !important;
+}
+
+.text-slate-100,
+.text-slate-200,
+.text-slate-300,
+.text-white {
+  color: #191918 !important;
+}
+
+.text-slate-400,
+.text-slate-500,
+.text-slate-600,
+.text-gray-400,
+.text-gray-500,
+.text-gray-600 {
+  color: #77756d !important;
+}
+
+.text-cyan-200,
+.text-cyan-300,
+.text-cyan-400 {
+  color: #a04a32 !important;
+}
+
+.bg-cyan-400 {
+  background: #191918 !important;
+  color: #ffffff !important;
+}
+
+.bg-cyan-400\/10,
+.bg-cyan-400\/\[0\.06\],
+.bg-cyan-400\/\[0\.07\] {
+  background: #eee8df !important;
+  color: #a04a32 !important;
+}
+
+.border-cyan-400\/20,
+.border-cyan-400\/40,
+.border-cyan-400\/50,
+.border-cyan-400\/60,
+.border-cyan-400\/30 {
+  border-color: #cfc7bb !important;
+}
+
+.border-white\/10,
+.border-white\/15,
+.border-white\/20,
+.border-white\/\[0\.07\],
+.border-white\/\[0\.1\] {
+  border-color: #d8d5cc !important;
+}
+
+input,
+select,
+textarea,
+button,
+nav,
+aside,
+header,
+section,
+article {
+  box-shadow: none !important;
+}
+
+input,
+select,
+textarea,
+.rounded-lg,
+.rounded-xl,
+.rounded-2xl,
+.rounded-3xl,
+.rounded-md {
+  border-radius: 2px !important;
+}
+
+input,
+select,
+textarea {
+  background: #fbfaf6 !important;
+  color: #191918 !important;
+  border-color: #d8d5cc !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9a978d !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #a04a32 !important;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.02em;
+}
+
+a,
+button {
+  transition-property: color, background-color, border-color;
+  transition-duration: 150ms;
+}
+
+.hover\:text-cyan-300:hover,
+.hover\:text-cyan-400:hover,
+.hover\:text-cyan-200:hover {
+  color: #191918 !important;
+}
+
+.hover\:bg-cyan-300:hover,
+.hover\:bg-cyan-400:hover {
+  background: #a04a32 !important;
+  color: #ffffff !important;
 }

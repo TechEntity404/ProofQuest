@@ -68,13 +68,13 @@ export default function ProofQuestDashboardStats() {
       {cards.map((card) => {
         const Icon = card.icon;
         return (
-          <article key={card.label} className="rounded-2xl border border-white/10 bg-[#0D121B] p-5">
-            <div className="flex items-center gap-2 text-cyan-300">
-              <Icon size={17} />
-              <span className="text-sm text-slate-400">{card.label}</span>
+          <article key={card.label} className="border border-[#D8D5CC] bg-[#FBFAF6] p-5">
+            <div className="flex items-center gap-2 text-[#A04A32]">
+              <Icon size={17} strokeWidth={1.7} />
+              <span className="text-xs font-semibold uppercase tracking-[0.08em] text-[#686760]">{card.label}</span>
             </div>
-            <p className="mt-3 text-3xl font-semibold tabular-nums text-slate-100">{card.value}</p>
-            <p className="mt-1 text-xs text-slate-500">{card.note}</p>
+            <p className="mt-3 font-serif text-4xl tabular-nums text-[#191918]">{card.value}</p>
+            <p className="mt-1 text-xs text-[#77756D]">{card.note}</p>
           </article>
         );
       })}

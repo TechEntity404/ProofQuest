@@ -32,7 +32,7 @@ export default function ProofQuestAuthGuard({ children }: { children: ReactNode 
 
   if (!ready && !PUBLIC_PATHS.includes(pathname)) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-[#080B10] px-5 text-sm text-slate-400">
+      <div className="flex min-h-screen items-center justify-center bg-[#F2F0EA] px-5 text-sm text-[#77756D]">
         Checking your PROOFQUEST access…
       </div>
     );
